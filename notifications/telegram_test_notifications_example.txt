@@ -9,3 +9,7 @@ java \
 -jar notifications/allure-notifications-4.1.jar
 
 //Jenkins
+
+java \
+"-DconfigFile=notifications/telegram_config.json" \
+-jar notifications/allure-notifications-4.1.jar
