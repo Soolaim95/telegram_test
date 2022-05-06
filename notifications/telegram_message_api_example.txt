@@ -1,0 +1,5 @@
+
+BOT_TOKEN 5161353574:AAEUps7-RdJ0jzQCpo5C2N1n-4AahsxBQoY
+CHAT ID -682228651
+
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-682228651", "text": "This is a test from qa.guru"}' https://api.telegram.org/bot5161353574:AAEUps7-RdJ0jzQCpo5C2N1n-4AahsxBQoY/sendMessage
